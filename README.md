@@ -8,7 +8,8 @@ Vrinda Store wants to create an annual sales report for 2022. So that, Vrinda ca
 - [Business Problem](#business-problem)
 - [Data Source](#vrinda-store-dataset)
 - [Business Questions](#business-questions)
-- [Methods](#methods)
+- [Method](#method)
+- [Quick Glance At The Dashboard](#quick-glance-at-the-dashboard)
 - [Step By Step Procedure](#step-by-step-procedure)
 
 ## Business Problem
@@ -31,11 +32,15 @@ These questions collectively aim to provide a comprehensive understanding of the
 ## Method
 - Exploratory data analysis
 
-## Steps
-- Data Cleaning
--   GGplot
+## Quick Glance At The Dashboard
+![dashboard](assets/dashboard.png)
+
+## Steps By Step Analysis
+
+- **Data Cleaning**
+  - Gender column: Replaced the categorical value ‘M’ and ‘W’ values to ‘Men’ and ‘Women’.
+  - Quantity column: Replaced the value ‘One’ and ‘Two’ to ‘1’ and ‘2’ respectively.
+
 - Data Processing
 - Analysis
 - Dashboarding
-
-  
