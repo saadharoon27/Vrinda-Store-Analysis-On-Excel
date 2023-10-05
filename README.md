@@ -18,6 +18,8 @@ Vrinda Store is gearing up to compile a comprehensive annual sales report for th
 - [Vrinda Store Dataset](https://www.kaggle.com/datasets/harunshah786/vrinda-store-dataset)
 
 ## Business Questions
+These questions collectively aim to provide a comprehensive understanding of the sales and order data for 2022, enabling data-driven decision-making and strategy development for Vrinda Store's growth and improvement in 2023.
+
 - 1.	Compare the sales and orders using single chart.
 - 2.	Which month got the highest sales and orders?
 - 3.	Who purchased more? Men or women in 2022?
@@ -26,9 +28,12 @@ Vrinda Store is gearing up to compile a comprehensive annual sales report for th
 - 6.	Relation between age and gender based on number of orders.
 - 7.	Which channel has the maximum contribution?
 
+## Method
+- Exploratory data analysis
 
-## Methods
+## Steps
 - Data Cleaning
+-   GGplot
 - Data Processing
 - Analysis
 - Dashboarding
