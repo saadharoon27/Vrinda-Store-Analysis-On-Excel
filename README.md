@@ -30,7 +30,7 @@ These questions collectively aim to provide a comprehensive understanding of the
 - 7.	Which channel has the maximum contribution?
 
 ## Method
-- Exploratory data analysis
+- Exploratory data analysis (EDA)
 
 ## Quick Glance At The Dashboard
 ![dashboard](assets/dashboard.png)
@@ -38,9 +38,26 @@ These questions collectively aim to provide a comprehensive understanding of the
 ## Steps By Step Analysis
 
 - **Data Cleaning**
-  - Gender column: Replaced the categorical value ‘M’ and ‘W’ values to ‘Men’ and ‘Women’.
-  - Quantity column: Replaced the value ‘One’ and ‘Two’ to ‘1’ and ‘2’ respectively.
+  - **Gender column:** Replaced the categorical value ‘M’ and ‘W’ values to ‘Men’ and ‘Women’.
+  - **Quantity column:** Replaced the values ‘One’ and ‘Two’ to ‘1’ and ‘2’ respectively.
 
-- Data Processing
-- Analysis
-- Dashboarding
+- **Data Processing**
+  - **Age Group:** To address the question *vi* Of business question, a new column has to be created named ‘Age Group’ to extract the relationship between ‘Age’, ‘Gender’, and the number of orders they made. 
+  - **Categories:** >=50, Senior; >=30 and <50, Adult; <30, Young
+  - **Month Column:** To address question 2, a ‘Month’ column has been created.
+
+- **Analysis & Dashboarding**
+  - Step 1:
+    - To address question 1, and 2, created a new a pivot table in sheet ‘Q1 - Order vs Sales Chart’ comparing total monthly sales value and number of orders.
+  - Step 2:
+    - Created a new sheet, ‘Q3 – Most Purchases’ to analyse which gender purchased the most, addressing question 3.
+  - Step 3:
+    - Created a new sheet, ‘Q4 – Order Status’ to address question 4, which checks the status of the order compared to the total orders.
+  - Step 4:
+    - To address question 5, a new pivot table has been made in the sheet named: ‘Q5 – Top 5 States’.
+  - Step 5:
+    - To understand the relationship between age, gender, and number of orders, and to address question 6 a new sheet has been created named: ‘Q6 – Age, Gender, Orders’.
+  - Step 6:
+    - Addressing question 7: To check which channel has the highest contribution a pivot chart has been created in sheet: ‘Q7 – Channels’.
+
+- Filters
