@@ -35,7 +35,7 @@ These questions collectively aim to provide a comprehensive understanding of the
 - Exploratory data analysis _(EDA)_
 
 ## Quick Glance At The Dashboard
-![dashboard](asset/DashboardGlance.png)
+![dashboard](asset/dashboard_glance.png)
 
 ## Steps By Step Procedure
 
