@@ -44,29 +44,29 @@ These questions collectively aim to provide a comprehensive understanding of the
   - **Quantity column:** Replaced the values _‘One’_ and _‘Two’_ to _‘1’_ and _‘2’_ respectively.
 
 - **Data Processing**
-  - **Age Group:** To address the question *vi* Of business question, a new column has to be created named **‘Age Group’** to extract the relationship between _‘Age’_, _‘Gender’_, and the _number of orders_ they made. 
+  - **Age Group:** To address the *question vi* Of business question, a new column has to be created named **‘Age Group’** to extract the relationship between _‘Age’_, _‘Gender’_, and the _number of orders_ they made. 
   - **Categories:** >=50, Senior; >=30 and <50, Adult; <30, Young
-  - **Month Column:** To address question *ii*, a **‘Month’** column has been created.
+  - **Month Column:** To address *question ii*, a **‘Month’** column has been created.
 
 - **Analysis & Dashboarding**
   - **Step 1:**
-    - To address questions _i_ and _ii_, created a new pivot table in sheet **‘Q1 - Order vs Sales Chart’** comparing total monthly sales value and the number of orders.
+    - To address _questions i_ and _ii_, created a new pivot table in sheet **‘Q1 - Order vs Sales Chart’** comparing total monthly sales value and the number of orders.
   - **Step 2:**
-    - Created a new sheet, **‘Q3 – Most Purchases’** to analyse which gender purchased the most, addressing question _iii_.
+    - Created a new sheet, **‘Q3 – Most Purchases’** to analyse which gender purchased the most, addressing _question iii_.
   - **Step 3:**
-    - Created a new sheet, **‘Q4 – Order Status’** to address question _iv_, which checks the status of the order compared to the total orders.
+    - Created a new sheet, **‘Q4 – Order Status’** to address _question iv_, which checks the status of the order compared to the total orders.
   - **Step 4:**
-    - To address question _v_, a new pivot table has been made in the sheet named: **‘Q5 – Top 5 States’**.
+    - To address _question v_, a new pivot table has been made in the sheet named: **‘Q5 – Top 5 States’**.
   - **Step 5:**
-    - To understand the relationship between _age, gender,_ and _number of orders,_ and to address question _vi_ a new sheet has been created named: **‘Q6 – Age, Gender, Orders’**.
+    - To understand the relationship between _age, gender,_ and _number of orders,_ and to address _question vi_ a new sheet has been created named: **‘Q6 – Age, Gender, Orders’**.
   - **Step 6:**
-    - Addressing question _vii_: To check which channel has the highest contribution a pivot chart has been created in sheet: **‘Q7 – Channels’**.
+    - Addressing _question vii_: To check which channel has the highest contribution a pivot chart has been created in sheet: **‘Q7 – Channels’**.
 
 - **Filters**
-  - To create an interactive visual dashboard, 3 slicers were made on: *Month, Channel,* and *Category.*
+  - To create an interactive visual dashboard, **3 slicers** were made on: *Month, Channel,* and *Category.*
 
 ## Business Insights
-  - 1.	Orders and sales revenue are on decrease since _March_.
+  - 1.	Orders and sales revenue are on **decrease** since _March_.
   - 2.	March has the highest sales **(~INR 1.92M)** and order volumes **(2819)**.
   - 3.	_Women_ are more likely to buy compared to _men_ **(~65%)**.
   - 4.	The majority of the orders were delivered **(92%)**.
