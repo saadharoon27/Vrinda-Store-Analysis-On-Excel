@@ -1,5 +1,5 @@
 # Vrinda-Store-Analysis-On-Excel
-Vrinda Store wants to create an annual sales report for 2022. So that, Vrinda can understand their customers and grow more sales in 2023.
+_Vrinda Store wants to create an annual sales report for 2022. So that, Vrinda can understand their customers and grow more sales in 2023._
 
 ## Author
 - [@saadharoon27](https://github.com/saadharoon27)
@@ -11,6 +11,8 @@ Vrinda Store wants to create an annual sales report for 2022. So that, Vrinda ca
 - [Method](#method)
 - [Quick Glance At The Dashboard](#quick-glance-at-the-dashboard)
 - [Step By Step Procedure](#step-by-step-procedure)
+- [Business Insights](#business-insights)
+- [Business Suggestion](#business-suggestion)
 
 ## Business Problem
 Vrinda Store is gearing up to compile a comprehensive annual sales report for the year 2022. This report is envisioned as a crucial tool for Vrinda's business strategy moving forward, with the primary goal of gaining valuable insights into their customer base. By analyzing the data from the past year, Vrinda aims to identify trends, patterns, and customer preferences that will enable them to make informed decisions and devise targeted marketing strategies for the upcoming year, 2023.
@@ -30,12 +32,12 @@ These questions collectively aim to provide a comprehensive understanding of the
 - 7.	Which channel has the maximum contribution?
 
 ## Method
-- Exploratory data analysis (EDA)
+- Exploratory data analysis _(EDA)_
 
 ## Quick Glance At The Dashboard
 ![dashboard](assets/dashboard.png)
 
-## Steps By Step Analysis
+## Steps By Step Procedure
 
 - **Data Cleaning**
   - **Gender column:** Replaced the categorical value ‘M’ and ‘W’ values to ‘Men’ and ‘Women’.
@@ -62,5 +64,15 @@ These questions collectively aim to provide a comprehensive understanding of the
 
 - **Filters**
   - To create an interactive visual dashboard, 3 slicers were made on: *Month, Channel,* and *Category.*
- 
-    
+
+## Business Insights
+  - 1.	Orders and sales revenue are on decrease since _March_.
+  - 2.	March has the highest sales **(~INR 1.92M)** and order volumes **(2819)**.
+  - 3.	_Women_ are more likely to buy compared to _men_ **(~65%)**.
+  - 4.	The majority of the orders were delivered **(92%)**.
+  - 5.	_Maharashtra, Karnataka,_ and _Uttar Pradesh_ are the **top 3** **states (~35%).**
+  - 6.	The adult age group **(30 – 49 yrs)** has a maximum contribution **(~50%)**.
+  - 7.	_Amazon, Flipkart,_ and _Myntra_ channels have maximum contribution **(~80%)**.
+
+## Business Suggestion
+- Target women customers of the age group (30 — 49 years) living in Maharashtra, Karnataka, and Uttar Pradesh by showing ads/offers/coupons available on Amazon, Flipkart, and Myntra.
